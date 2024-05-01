@@ -13,21 +13,29 @@
 
   <body>
 
-    <header>
-      <nav>
-        <div>
-          <h3><a href="#">travel site</a></h3>
+    <!-- NAVBAR -->
+    <header class="header">
+      <nav class="navbar">
+
+        <div class="navbar__left">
+          <h3 class="navbar__logo"><a href="../index.html" class="navbar__link--logo">travel site</a></h3>
         </div>
-        <div>
-          <ul>
-            <li><a href="#">home</a></li>
-            <li><a href="#">hawaii</a></li>
-            <li><a href="#">iceland</a></li>
-            <li><a href="#">greece</a></li>
+
+        <div class="navbar__right">
+          <div class="navbar__mobile">
+            <img src="./assets/icons/menu.svg" alt="mobile-menu" class="navbar__mobile-icon"/>
+          </div>
+          <ul class="navbar__list">
+            <li class="navbar__item"><a href="../index.html" class="navbar__link">home</a></li>
+            <li class="navbar__item"><a href="../pages/hawaii.html" class="navbar__link navbar__link--active">hawaii</a></li>
+            <li class="navbar__item"><a href="../pages/iceland.html" class="navbar__link">iceland</a></li>
+            <li class="navbar__item"><a href="../pages/greece.html" class="navbar__link">greece</a></li>
           </ul>
         </div>
+
       </nav>
     </header>
+
 
     <main>
       <section>
@@ -60,51 +68,61 @@
       </section>
     </main>
 
-    <footer>
-      <section>
-        <h3>contact</h3>
-        <div>
-          <div>
-            <p>email</p>
-            <a href="#">info@travelsite.com</a>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+
+      <section class="footer-contact">
+        <h3 class="footer__header">contact</h3>
+        <div class="footer__content">
+          <div class="footer-item">
+            <p class="footer-item__text--helper">email</p>
+            <a href="mailto:info@travelsite.com?subject=I Need a Vacation :(" class="footer-item__text">info@travelsite.com</a>
           </div>
         </div>
       </section>
 
-      <section>
-        <h3>hours</h3>
-        <div>
-          <div>
-            <p>monday - friday</p>
-            <p>9:00 am - 5:00 pm</p>
+      <section class="footer-hours">
+        <h3 class="footer__header">hours</h3>
+        <div class="footer__content">
+          <div class="footer-item">
+            <p class="footer-item__text--helper">monday - friday</p>
+            <p class="footer-item__text">9:00 AM - 5:00 PM</p>
           </div>
-          <div>
-            <p>saturday</p>
-            <p>10:00 am - 4:00 pm</p>
+          <div class="footer-item">
+            <p class="footer-item__text--helper">saturday</p>
+            <p class="footer-item__text">10:00 AM - 4:00 PM</p>
           </div>
-          <div>
-            <p>sunday</p>
-            <p>closed</p>
+          <div class="footer-item">
+            <p class="footer-item__text--helper">sunday</p>
+            <p class="footer-item__text">Closed</p>
           </div>
         </div>
       </section>
 
-      <section>
-        <h3>social</h3>
-        <div>
-          <ul>
-            <li>
-              <a href="#"> <img src="" alt="instagram"/> </a>
+      <section class="footer-socials">
+        <h3 class="footer__header">social</h3>
+        <div class="footer__content">
+          <ul class="footer-socials__list">
+            <li class="footer-socials__item">
+              <a href="https://www.instagram.com" class="footer-socials__link">
+                <img src="../assets/icons/icon-instagram.png" alt="instagram" class="footer-socials__icon"/>
+              </a>
             </li>
-            <li>
-              <a href="#"> <img src="" alt="facebook"/> </a>
+            <li class="footer-socials__item">
+              <a href="https://www.facebook.com" class="footer-socials__link">
+                <img src="../assets/icons/icon-facebook.png" alt="facebook" class="footer-socials__icon"/>
+              </a>
             </li>
-            <li>
-              <a href="#"> <img src="" alt="twitter"/> </a>
+            <li class="footer-socials__item">
+              <a href="https://www.twitter.com" class="footer-socials__link">
+                <img src="../assets/icons/icon-twitter.png" alt="twitter" class="footer-socials__icon"/>
+              </a>
             </li>
           </ul>
         </div>
       </section>
+
     </footer>
 
   </body>
