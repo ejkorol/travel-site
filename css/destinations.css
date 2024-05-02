@@ -1,0 +1,118 @@
+/* *************************** */
+/*          BODY+HTML          */
+/* *************************** */
+html, body {
+  height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+/* *************************** */
+/*            HERO             */
+/* *************************** */
+.destination__page {
+  flex-grow: 1;
+}
+
+.hero-destination {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-destination--hawaii {
+  background-image: url("../assets/images/hawaii.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.hero-destination--iceland {
+  background-image: url("../assets/images/iceland.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.hero-destination--greece {
+  background-image: url("../assets/images/greece.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-destination__top {
+  display: flex;
+  padding: 2.5rem 0 0 4.375rem;
+}
+.hero-destination__header {
+  font-family: Verdana Bold;
+  color: var(--light);
+  font-size: var(--giant);
+  text-transform: capitalize;
+  letter-spacing: var(--wide);
+  margin: 0;
+}
+
+/* *************************** */
+/*            CARDS            */
+/* *************************** */
+.cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 100%;
+  align-content: center;
+  gap: 3%;
+}
+
+.card {
+  background-color: var(--light);
+  width: 14.688rem;
+  height: 22rem;
+  border-radius: 5px;
+  padding: 1.25rem;
+  margin: 0.5rem;
+}
+.card__top {
+  border-bottom: 2.5px solid var(--dark);
+}
+.card__header {
+  font-family: Verdana Bold;
+  font-size: var(--medium);
+  text-transform: capitalize;
+  text-align: center;
+  margin: 0;
+}
+
+.card__list {
+  list-style: none;
+  padding: 0;
+  margin-top: 15%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+.card__item {
+  text-transform: capitalize;
+  font-size: var(--regular);
+  background-color: var(--secondary);
+  text-align: center;
+  padding: 5%;
+}
+
+/* *************************** */
+/*     CARDS MEDIA QUERIES     */
+/* *************************** */
+@media screen and (max-width: 1000px) {
+  .cards {
+    padding: 4.375rem 0;
+  }
+  .hero-destination__header {
+    text-align: center;
+  }
+  .hero-destination__top {
+    display: inline-block;
+    padding-left: 0;
+  }
+  .card {
+    margin: 1.5rem;
+  }
+}
