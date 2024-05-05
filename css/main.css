@@ -134,14 +134,17 @@
 .card--hawaii {
   background-image: url("../assets/images/hawaii.jpg");
   background-size: cover;
+  background-repeat: no-repeat;
 }
 .card--iceland {
   background-image: url("../assets/images/iceland.jpg");
   background-size: cover;
+  background-repeat: no-repeat;
 }
 .card--greece {
   background-image: url("../assets/images/greece.jpg");
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 /* *************************** */
