@@ -65,8 +65,8 @@ body {
 
 .card {
   background-color: var(--light);
-  width: 14.688rem;
-  height: 22rem;
+  width: 235px;
+  height: 352px;
   border-radius: 5px;
   padding: 1.25rem;
   margin: 0.5rem;

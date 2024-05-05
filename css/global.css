@@ -80,7 +80,7 @@ body {
   align-items: center;
 }
 .navbar__mobile-icon {
-  height: 1.5rem;
+  height: 24px;
   cursor: pointer;
 
 }
@@ -178,7 +178,7 @@ body {
   margin: 0;
 }
 .footer-socials__icon {
-  height: 1.5rem;
+  height: 24px;
 }
 
 /* *************************** */
