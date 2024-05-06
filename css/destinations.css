@@ -12,10 +12,6 @@ body {
 /* *************************** */
 /*            HERO             */
 /* *************************** */
-.destination__page {
-  flex-grow: 1;
-}
-
 .hero-destination {
   height: 100%;
   display: flex;
