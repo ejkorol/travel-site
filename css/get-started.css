@@ -17,7 +17,6 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 60px;
   background-image: url("../assets/images/chen-mizrach-jL6PTWI7h18-unsplash.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -25,7 +24,7 @@ body {
 }
 
 .get-started__top {
-  margin-top: 60px;
+  padding-top: 120px;
   align-self: center;
 }
 .get-started__header {
