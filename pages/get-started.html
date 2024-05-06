@@ -40,7 +40,54 @@
       </nav>
     </header>
 
-    <main>
+    <main class="get-started__page">
+
+      <!-- Form -->
+      <section class="get-started">
+        <div class="get-started__top">
+          <h1 class="get-started__header" data-aos="fade-down">Let's book your dream vacation.</h1>
+        </div>
+
+        <section class="cards">
+          <article class="card" data-aos="fade-down" data-aos-easing="ease-out" data-aos-duration="600" data-aos-delay="150">
+            <div class="card__top">
+              <h2 class="card__header">get started</h2>
+            </div>
+            <div class="card__content">
+              <form class="form">
+                <div class="form__group">
+                  <label class="form__label" for="first-name">first name:</label>
+                  <input class="form__input" type="text" id="first-name" name="first-name" placeholder="John">
+                </div>
+
+                <div class="form__group">
+                  <label class="form__label" for="last-name">last name:</label>
+                  <input class="form__input" type="text" id="last-name" name="last-name" placeholder="Doe">
+                </div>
+
+                <div class="form__group">
+                  <label class="form__label" for="email">email:</label>
+                  <input class="form__input" type="text" id="email" name="email" placeholder="johndoe@gmail.com">
+                </div>
+
+                <div class="form__group">
+                  <label class="form__label" for="destination">destination?</label>
+                  <select class="form__select" name="destination" id="destination">
+                    <option class="form__option form__option--default" value="" selected disabled hidden>choose here</option>
+                    <option class="form__option" value="hawaii">hawaii</option>
+                    <option class="form__option" value="iceland">iceland</option>
+                    <option class="form__option" value="greece">greece</option>
+                  </select>
+                </div>
+
+                <a class="form__link" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
+                  <button class="form__button" type="button">Book a call</button>
+                </a>
+              </form>
+            </div>
+          </article>
+        </section>
+      </section>
 
     </main>
 
