@@ -5,6 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!-- AOS Library -->
+    <!-- https://github.com/michalsnik/aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
     <link rel="stylesheet" href="../css/global.css">
     <link rel="stylesheet" href="../css/destinations.css">
 
@@ -15,7 +20,7 @@
 
     <!-- NAVBAR -->
     <header class="header">
-      <nav class="navbar">
+      <nav class="navbar" data-aos="fade-down">
 
         <div class="navbar__left">
           <h3 class="navbar__logo"><a href="../index.html" class="navbar__link--logo">travel site</a></h3>
@@ -41,11 +46,11 @@
       <!-- ITINERARY -->
       <section class="hero-destination hero-destination--iceland">
         <div class="hero-destination__top">
-          <h1 class="hero-destination__header">iceland</h1>
+          <h1 class="hero-destination__header" data-aos="fade-down">iceland</h1>
         </div>
 
         <section class="cards">
-          <article class="card">
+          <article class="card" data-aos="fade-down" data-aos-easing="ease-out" data-aos-duration="600" data-aos-delay="150">
             <div class="card__top">
               <h2 class="card__header">friday</h2>
             </div>
@@ -59,7 +64,7 @@
             </div>
           </article>
 
-          <article class="card">
+          <article class="card" data-aos="fade-down" data-aos-easing="ease-out" data-aos-duration="600" data-aos-delay="300">
             <div class="card__top">
               <h2 class="card__header">saturday</h2>
             </div>
@@ -73,7 +78,7 @@
             </div>
           </article>
 
-          <article class="card">
+          <article class="card" data-aos="fade-down" data-aos-easing="ease-out" data-aos-duration="600" data-aos-delay="450">
             <div class="card__top">
               <h2 class="card__header">sunday</h2>
             </div>
@@ -95,7 +100,7 @@
     <!-- FOOTER -->
     <footer class="footer">
 
-      <section class="footer-contact">
+      <section class="footer-contact" data-aos="fade-up" data-aos-easing="ease-out" data-aos-duration="300">
         <h3 class="footer__header">contact</h3>
         <div class="footer__content">
           <div class="footer-item">
@@ -105,7 +110,7 @@
         </div>
       </section>
 
-      <section class="footer-hours">
+      <section class="footer-hours" data-aos="fade-up" data-aos-easing="ease-out" data-aos-duration="300" data-aos-delay="150">
         <h3 class="footer__header">hours</h3>
         <div class="footer__content">
           <div class="footer-item">
@@ -123,7 +128,7 @@
         </div>
       </section>
 
-      <section class="footer-socials">
+      <section class="footer-socials" data-aos="fade-up" data-aos-easing="ease-out" data-aos-duration="300" data-aos-delay="300">
         <h3 class="footer__header">social</h3>
         <div class="footer__content">
           <ul class="footer-socials__list">
@@ -145,8 +150,12 @@
           </ul>
         </div>
       </section>
-
     </footer>
+
+    <!-- AOS Initialization -->
+    <script>
+      AOS.init();
+    </script>
 
   </body>
 
