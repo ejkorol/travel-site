@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- AOS Library -->
+    <!-- https://github.com/michalsnik/aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/get-started.css">
+
+    <title>Travel Site | Home</title>
+  </head>
+
+  <body>
+
+    <!-- NAVBAR -->
+    <header class="header">
+      <nav class="navbar" data-aos="fade-down">
+
+        <div class="navbar__left">
+          <h3 class="navbar__logo"><a href="../index.html" class="navbar__link--logo">travel site</a></h3>
+        </div>
+
+        <div class="navbar__right">
+          <div class="navbar__mobile">
+            <img src="../assets/icons/menu.svg" alt="mobile-menu" class="navbar__mobile-icon"/>
+          </div>
+          <ul class="navbar__list">
+            <li class="navbar__item"><a href="../index.html" class="navbar__link">home</a></li>
+            <li class="navbar__item"><a href="../pages/hawaii.html" class="navbar__link">hawaii</a></li>
+            <li class="navbar__item"><a href="../pages/iceland.html" class="navbar__link">iceland</a></li>
+            <li class="navbar__item"><a href="../pages/greece.html" class="navbar__link">greece</a></li>
+          </ul>
+        </div>
+
+      </nav>
+    </header>
+
+    <main>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+
+      <section class="footer-contact" data-aos="fade-up" data-aos-easing="ease-out" data-aos-duration="300">
+        <h3 class="footer__header">contact</h3>
+        <div class="footer__content">
+          <div class="footer-item">
+            <p class="footer-item__text--helper">email</p>
+            <a href="mailto:info@travelsite.com?subject=I Need a Vacation :(" class="footer-item__text">info@travelsite.com</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="footer-hours" data-aos="fade-up" data-aos-easing="ease-out" data-aos-duration="300" data-aos-delay="150">
+        <h3 class="footer__header">hours</h3>
+        <div class="footer__content">
+          <div class="footer-item">
+            <p class="footer-item__text--helper">monday - friday</p>
+            <p class="footer-item__text">9:00 AM - 5:00 PM</p>
+          </div>
+          <div class="footer-item">
+            <p class="footer-item__text--helper">saturday</p>
+            <p class="footer-item__text">10:00 AM - 4:00 PM</p>
+          </div>
+          <div class="footer-item">
+            <p class="footer-item__text--helper">sunday</p>
+            <p class="footer-item__text">Closed</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="footer-socials" data-aos="fade-up" data-aos-easing="ease-out" data-aos-duration="300" data-aos-delay="300">
+        <h3 class="footer__header">social</h3>
+        <div class="footer__content">
+          <ul class="footer-socials__list">
+            <li class="footer-socials__item">
+              <a href="https://www.instagram.com" class="footer-socials__link">
+                <img src="../assets/icons/icon-instagram.png" alt="instagram" class="footer-socials__icon"/>
+              </a>
+            </li>
+            <li class="footer-socials__item">
+              <a href="https://www.facebook.com" class="footer-socials__link">
+                <img src="../assets/icons/icon-facebook.png" alt="facebook" class="footer-socials__icon"/>
+              </a>
+            </li>
+            <li class="footer-socials__item">
+              <a href="https://www.twitter.com" class="footer-socials__link">
+                <img src="../assets/icons/icon-twitter.png" alt="twitter" class="footer-socials__icon"/>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </footer>
+
+    <!-- AOS Initialization -->
+    <script>
+      AOS.init();
+    </script>
+
+  </body>
+
+</html>
