@@ -47,6 +47,10 @@ body {
   background-color: var(--secondary)
 }
 
+.get-started__page, .destination__page {
+  flex-grow: 1;
+}
+
 /* *************************** */
 /*           NAVBAR            */
 /* *************************** */
