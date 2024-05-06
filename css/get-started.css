@@ -1,0 +1,141 @@
+/* *************************** */
+/*          BODY+HTML          */
+/* *************************** */
+html, body {
+  height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+/* *************************** */
+/*            HERO             */
+/* *************************** */
+.get-started {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 60px;
+  background-image: url("../assets/images/chen-mizrach-jL6PTWI7h18-unsplash.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.get-started__top {
+  margin-top: 60px;
+  align-self: center;
+}
+.get-started__header {
+  text-align: center;
+  font-family: Verdana Bold;
+  color: var(--light);
+  font-size: var(--x-large);
+  text-transform: capitalize;
+  letter-spacing: var(--wide);
+  margin: 0;
+}
+
+/* *************************** */
+/*           CARDS             */
+/* *************************** */
+.cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 100%;
+  align-content: center;
+}
+
+.card {
+  background-color: var(--light);
+  width: 235px;
+  height: 352px;
+  border-radius: 5px;
+  padding: 1.25rem;
+  margin: 0.5rem;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+}
+.card__top {
+  border-bottom: 2.5px solid var(--dark);
+}
+.card__header {
+  font-family: Verdana Bold;
+  font-size: var(--medium);
+  text-transform: capitalize;
+  text-align: center;
+  margin: 0;
+}
+.card__content {
+  height: 90%;
+}
+
+/* *************************** */
+/*            FORM             */
+/* *************************** */
+.form {
+  margin-top: 15px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.form__group {
+  display: flex;
+  flex-direction: column;
+}
+.form__label {
+  color: var(--dark);
+  text-transform: capitalize;
+  font-size: var(--small);
+  margin-bottom: 5px;
+}
+.form__input {
+  background-color: var(--secondary);
+  border: 1px solid var(--tertiary);
+  border-radius: 5px;
+  height: 20px;
+  color: var(--dark);
+  padding: 2.5px 8px;
+}
+.form__input::placeholder {
+  font-size: var(--small);
+  color: #BDBDBD;
+}
+.form__select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: var(--secondary);
+  border: 1px solid var(--tertiary);
+  border-radius: 5px;
+  height: 20px;
+  color: var(--dark);
+  padding: 2.5px 8px;
+  text-transform: capitalize;
+}
+.form__option--default {
+  color: #BDBDBD;
+}
+.form__button {
+  cursor: pointer;
+  display: inline-block;
+  vertical-align: middle;
+  width: 100%;
+  height: 35px;
+  background-color: var(--tertiary);
+  color: var(--light);
+  font-size: var(--regular);
+  text-transform: capitalize;
+  border-style: none;
+  border-radius: 35px;
+  transition: background-color 0.25s ease-in-out;
+  letter-spacing: var(--wide);
+  padding: 0.1rem 1.25rem;
+}
+.form__button:hover {
+  background-color: var(--primary);
+  transition: background-color 0.25s ease-in-out;
+}
