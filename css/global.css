@@ -104,7 +104,17 @@ body {
   font-size: var(--regular);
   padding-bottom: 0.625rem;
 }
-.navbar__link:hover {
+.navbar__link:after {
+  content: "";
+  display: block;
+  margin: auto;
+  width: 0px;
+  padding-bottom: 0.625rem;
+  border-bottom: 3px solid var(--link-active);
+  transition: width .5s ease, border-bottom .5s ease;
+}
+.navbar__link:hover:after {
+  width: 100%;
   border-bottom: 3px solid var(--link-active);
 }
 .navbar__link--active {
