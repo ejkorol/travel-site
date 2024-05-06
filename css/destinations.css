@@ -20,6 +20,7 @@ body {
   height: 100%;
   display: flex;
   flex-direction: column;
+  margin-top: 60px;
 }
 
 .hero-destination--hawaii {
